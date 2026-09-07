@@ -1,0 +1,2 @@
+# js
+code for javascricpt
