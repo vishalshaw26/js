@@ -8,7 +8,10 @@ let name = "vishal"
 let age = 20
 let isLoggedIn = false
 
-/* TYPES of  DataType
+/* 2 TYPES of  DataType ----------------- PRIMITIVES & NON PRIMITIVES
+
+7 TYPES OF PRIMITIVE DataTYPE
+___________________________________________________________________________________
 number = 2^53
 bigint = for larger numbers
 string = "assembly of characteres"
@@ -18,7 +21,9 @@ undefined = place hold for a value which is not defined
 symbol =  uniquness
 */
 
-//OBJECT
-console.table([typeof name , age ,isLoggedIn   ]);
-
+/*3 TYPES of  NON PRIMITIVES
+______________________________________________________________________________________
+Array           -----------------     ["","",""]
+Object          -----------------     {"", age ,isLoggedIn}
+Function        -----------------     ("")
 
