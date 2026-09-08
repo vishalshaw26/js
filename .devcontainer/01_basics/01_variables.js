@@ -7,7 +7,7 @@ let accountState; // undefined
 /* now tring yo change all the variables 
 and which one actually changes...*/
 
-//accountId = 2222 I(not allowed)
+//accountId = 2222 (not allowed)
 accountEmail = "pspsp@gmail"
 accountPassword = "280306"
 accountCity = "Banglore"
