@@ -9,7 +9,7 @@ console.log(myYoutubename);
 console.log(anothername);
 
 //HEAP MEMORY (Non-Primitive Types)
-//Gives a DIRECT REFERENCE(pointer) to the original memory,SO changes affect all variables pointing to it
+//Gives a DIRECT REFERENCE(pointer) to the original memory,SO changes affect all variables(Original values) pointing to it
 let userOne = {
     email: "user@google.com",
     upi: "user@ybl"
