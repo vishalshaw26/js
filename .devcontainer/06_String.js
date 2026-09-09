@@ -21,7 +21,7 @@ console.log(newString) //Pub
 const newString2 = gameName.slice(-2, 3)
 console.log(newString2) //u
 
-const newString3 = "      Hello World     "
+const newString3 = "      Hello World    "
 console.log(newString3) //      Hello World     
 console.log(newString3.trim()) //Hello World
 
