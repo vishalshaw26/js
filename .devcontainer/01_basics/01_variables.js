@@ -3,7 +3,7 @@ let accountEmail = "vishal@gmail"
 var accountPassword = "223334444" //prefer not to use "var" because of issue in  block scope and functional scope 
 accountCity = "Kolkata"
 let accountState; //undefined
-
+ 
 /* now tring yo change all the variables 
 and which one actually changes...*/
 
