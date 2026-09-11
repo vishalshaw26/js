@@ -74,7 +74,8 @@ function loginUserMessage(username = "SAMAY"){
 console.log(loginUserMessage()) //output: SAMAY just loggedin
 console.log(loginUserMessage("vishal")) //vishal just loggedin  --- If a value is passed, it replaces the default value; otherwise, "SAMAY" is used
 
-//_________________________________________________________________-----------------------------__________________________________________________________
+//_____________________________________________________________________________________-----------------------------_______________________________________________________________________________________________
+
 function calculateCartPrice(...num1){          //here '...' is working as rest operator
     return num1
 }
