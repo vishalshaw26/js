@@ -49,3 +49,34 @@ console.log(Object.values(appUser)); //OUTPUT: ['123abc', 'Samay', false]
 console.log(Object.entries(appUser)); //OUTPUT: [ [ 'id', '123abc' ], [ 'name', 'Samay' ], [ 'isLoggedIn', false ] ]
 
 console.log(appUser.hasOwnProperty('isLoggedIn')); //OUTPUT: true    ---  hasOwnProperty help to checks whether the object directly contains the specified property.
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//De_structure
+
+const course = {
+    coursename: "javascript",
+    price: "999",
+    courseInstructor: "Sir ji"
+}
+//console.log(course.courseInstructor)
+
+const {courseInstructor: instructor} = course
+//console.log(courseInstructor);
+console.log(instructor);
+
+//Json ---- keys and values both are strings
+{
+    "name": "vishal",
+    "coursename": "js in hindi",
+    "price": "free"
+}
+//an Array containing 3 empty objects
+[
+    {},
+    {},
+    {}
+]
+
+
+
+
