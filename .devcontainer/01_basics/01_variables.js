@@ -1,5 +1,5 @@
-const accountId = 261105
-let accountEmail = "vishal@gmail"
+const accountId = 261105  //const -- Used to declare constants (values that cannot be reassigned).
+let accountEmail = "vishal@gmail"  //let -- Used to declare variables whose values can change later.
 var accountPassword = "223334444" //prefer not to use "var" because of issue in  block scope and functional scope 
 accountCity = "Kolkata"
 let accountState; //undefined
