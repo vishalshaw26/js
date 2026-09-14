@@ -37,9 +37,9 @@ for (let index = 0; index < 10; index++) {
 //Nested loop -- we can use multiple loops in a loop
 
  for (let i = 0; i <= 2; i++) {
-    //console.log(`Outer loop value ${i}`);
+    console.log(`Outer loop value ${i}`);
      for (let j = 0; j <= 5; j++) {
-        //console.log(`Inner loop value ${j} and inner loop ${i}`);
+        console.log(`Inner loop value ${j} and inner loop ${i}`);
      }
     } /* output: 
 Outer loop value 0
@@ -66,9 +66,9 @@ Inner loop value 5 and inner loop 2 */
 
 //multiplication table
  for (let i = 1; i <= 3; i++) {
-    //console.log(`multiplication of ${i}`);
+    console.log(`multiplication of ${i}`);
      for (let j = 1; j <= 10; j++) {
-        //console.log(i + '*' + j + " = " + i*j);
+        console.log(i + '*' + j + " = " + i*j);
      }
     } /* OUTPUT: 
 multiplication of 1
